@@ -1,4 +1,4 @@
-function quickSort(array, leftBorder = 0, rightBorder = array.length - 1)
+export function quickSort(array, leftBorder = 0, rightBorder = array.length - 1)
 {
 	if(leftBorder >= rightBorder) return;
 
@@ -41,3 +41,4 @@ let arr = [4, 0, 1, 4, 0, 6, 4, 10, 6, 8, 4];
 
 quickSort(arr);
 console.log(arr);
+
